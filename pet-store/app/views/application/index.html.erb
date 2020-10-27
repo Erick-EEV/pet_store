@@ -1,0 +1,4 @@
+<h1>These Are All The Pets</h1>
+<ol> <% @pets.each do |pet|%>
+ <li>  <%=link_to pet.name, index_path %> </li>
+<% end %> </ol>
